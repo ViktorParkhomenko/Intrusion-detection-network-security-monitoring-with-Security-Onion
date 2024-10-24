@@ -34,6 +34,6 @@ close that open port and delete payload.
 ●	Alert triage and case creation. Dismiss false positives. Tools Suricata (alerts), Zeek (metadata), VurusTotal (details about malicious files)
 
 
-●	Threat hunting. Look for malicious or suspicious events that already occurs 
+●	Threat hunting. Look for suspicious behavour by go through logs and data that already accumulated in security onion to find problematic events that are not cpovered by alert signatures.
 
 ●	Detection engineering. Tuning rules with such tools like Suricata (rules for IDS), Yara (detect malicious files), Sigma (look for IoC on log files).
