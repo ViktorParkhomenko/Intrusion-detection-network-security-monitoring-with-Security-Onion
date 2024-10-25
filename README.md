@@ -1,6 +1,7 @@
 # Intrusion detection network security monitoring with Security Onion
 
-Goal: demonstrate basic cyber threat attack and detection.
+Goal: enhance network security by utilizing Security Onion for intrusion detection and monitoring, focusing on alert triage, threat hunting, and detection engineering to identify and mitigate malicious activities effectively.
+
 1. I installed and configured 
 - securuty onion
 - windows 7
@@ -31,9 +32,11 @@ close that open port and delete payload.
 
 
   
-●	Alert triage and case creation. Dismiss false positives. Tools Suricata (alerts), Zeek (metadata), VurusTotal (details about malicious files)
+Alert triage and case creation. Dismiss false positives. Tools Suricata (alerts), Zeek (metadata), VurusTotal (details about malicious files)
 
 
-●	Threat hunting. Look for suspicious behavour by go through logs and data that already accumulated in security onion to find problematic events that are not cpovered by alert signatures.
 
-●	Detection engineering. Tuning rules with such tools like Suricata (rules for IDS), Yara (detect malicious files), Sigma (look for IoC on log files).
+Threat Hunting: Threat hunting involves proactively searching for suspicious behavior within the logs and data accumulated in Security Onion. The goal is to identify problematic events that may not be captured by existing alert signatures. By analyzing this data, threat hunters can uncover hidden threats, enhance situational awareness, and respond to potential security incidents before they escalate.
+
+Detection Engineering: Detection engineering focuses on refining and tuning rules to improve the accuracy and effectiveness of intrusion detection systems. Tools like Suricata are used to create and adjust rules for identifying threats, while Yara is employed to detect malicious files based on specific patterns. Additionally, Sigma rules can be implemented to search for indicators of compromise (IoCs) across log files, ensuring a robust defense against evolving threats.
+
