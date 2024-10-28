@@ -5,7 +5,15 @@ Goal: enhance network security by utilizing Security Onion for intrusion detecti
 1. I installed and configured 
 - securuty onion
 - windows 7
-- kali linux 
+- kali linux
+
+  ///// video 177 to generate alerts i can also
+   Aggressive Scans: nmap -T5 <target>
+   SYN Scan (TCP SYN or Half-Open Scan): nmap -sS <target>
+   Aggressive OS Detection and Service Version Scanning: nmap -O -sV <target>
+   UDP Scan: nmap -sU <target>
+   Xmas Scan: nmap -sX <target>
+  
 2. attack simulation
    ![{31FA8E29-0770-4EB3-82CD-6AEEAF4B85E4}](https://github.com/user-attachments/assets/dc575218-44e9-45a1-9403-ed1e10de929a)
 - make sure security onion is on and tcpdump also on and capturing packets.
